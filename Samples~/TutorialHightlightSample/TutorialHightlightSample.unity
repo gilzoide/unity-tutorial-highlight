@@ -700,8 +700,8 @@ MonoBehaviour:
       m_Calls: []
   _cutoutRect:
     serializedVersion: 2
-    x: 303.14633
-    y: 217.99998
+    x: 0
+    y: 0
     width: 200
     height: 100.00003
   _cutoutObject: {fileID: 4156427}

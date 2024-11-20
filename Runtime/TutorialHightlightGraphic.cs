@@ -12,9 +12,25 @@ namespace Gilzoide.TutorialHighlight
         [SerializeField] private RectTransform _cutoutObject;
         [SerializeField] private RectOffset _cutoutMargin;
 
+        /// <summary>
+        /// Local rectangle used for the cutout.
+        /// If <see cref="CutoutObject"/> is set, its rectangle is used to calculate the cutout.
+        /// Otherwise, the value in <see cref="_cutoutRect"/> is used instead.
+        /// </summary>
         public Rect CutoutRect
         {
-            get => _cutoutObject ? _cutoutObject.ConvertLocalRect(rectTransform) : _cutoutRect;
+            get
+            {
+                if (_cutoutObject)
+                {
+                    Rect worldRect = _cutoutObject.TransformRect(_cutoutObject.rect);
+                    return rectTransform.InverseTransformRect(worldRect);
+                }
+                else
+                {
+                    return _cutoutRect;
+                }
+            }
             set
             {
                 _cutoutRect = value;
@@ -22,6 +38,10 @@ namespace Gilzoide.TutorialHighlight
             }
         }
         
+        /// <summary>
+        /// Object used to calculate the cutout rectangle.
+        /// Set it to null to use the rectangle value from <see cref="_cutoutRect"/> for the cutout.
+        /// </summary>
         public RectTransform CutoutObject
         {
             get => _cutoutObject;
@@ -32,6 +52,9 @@ namespace Gilzoide.TutorialHighlight
             }
         }
 
+        /// <summary>
+        /// Margins applied to the cutout rectangle.
+        /// </summary>
         public RectOffset CutoutMargin
         {
             get => _cutoutMargin;
@@ -45,25 +68,18 @@ namespace Gilzoide.TutorialHighlight
         public bool IsRaycastLocationValid(Vector2 sp, Camera eventCamera)
         {
             RectTransformUtility.ScreenPointToLocalPointInRectangle(rectTransform, sp, eventCamera, out Vector2 localPoint);
-            return !LocalCutoutRect.Contains(localPoint);
-        }
-
-        public Rect LocalCutoutRect
-        {
-            get
-            {
-                Rect cutoutRect = CutoutRect;
-                return new Rect(rectTransform.rect.position + cutoutRect.position, cutoutRect.size);
-            }
+            return !CutoutRect.Contains(localPoint);
         }
 
         protected override void OnPopulateMesh(VertexHelper vh)
         {
             vh.Clear();
 
+            Color32 color32 = color;
             Rect rect = rectTransform.rect;
             Rect cutoutRect = _cutoutMargin.Add(CutoutRect);
-            Color32 color32 = color;
+            // Transform `cutoutRect` to use bottom left corner as origin to make calculations simpler
+            cutoutRect.position -= rect.position;
 
             // Left rectangle
             vh.AddVert(new Vector3(rect.xMin, rect.yMin), color32, new Vector4(0, 0));
