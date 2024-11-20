@@ -54,7 +54,7 @@ namespace Gilzoide.TutorialHighlight
 
         public void Refresh(bool invokeEvents = true)
         {
-            if (_tutorialHightlightGraphic == null)
+            if (_tutorialHightlightGraphic == null || !isActiveAndEnabled)
             {
                 return;
             }
@@ -107,10 +107,7 @@ namespace Gilzoide.TutorialHighlight
 #if UNITY_EDITOR
         private void OnValidate()
         {
-            if (isActiveAndEnabled)
-            {
-                Refresh();
-            }
+            Refresh();
         }
 #endif
     }
