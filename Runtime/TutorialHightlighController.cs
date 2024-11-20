@@ -39,6 +39,14 @@ namespace Gilzoide.TutorialHighlight
 
         public bool TutorialEnded => _tutorialStep < 0 || _tutorialStep >= _tutorialObjects.Count;
 
+        private void Awake()
+        {
+            if (_tutorialHightlightGraphic == null)
+            {
+                _tutorialHightlightGraphic = GetComponent<TutorialHightlightGraphic>();
+            }
+        }
+
         private void Start()
         {
             Refresh();
