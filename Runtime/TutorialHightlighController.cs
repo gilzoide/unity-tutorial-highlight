@@ -107,7 +107,10 @@ namespace Gilzoide.TutorialHighlight
 #if UNITY_EDITOR
         private void OnValidate()
         {
-            Refresh();
+            if (isActiveAndEnabled)
+            {
+                Refresh();
+            }
         }
 #endif
     }
