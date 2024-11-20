@@ -59,7 +59,7 @@ namespace Gilzoide.TutorialHighlight
                 return;
             }
 
-            if (_tutorialStep < _tutorialObjects.Count)
+            if (!TutorialEnded)
             {
                 _tutorialHightlightGraphic.CutoutObject = _tutorialObjects[_tutorialStep];
                 _tutorialHightlightGraphic.enabled = true;
