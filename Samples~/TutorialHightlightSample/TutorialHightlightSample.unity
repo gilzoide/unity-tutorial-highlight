@@ -136,6 +136,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403980048}
     m_Modifications:
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1072982361}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AdvanceTutorialStep
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gilzoide.TutorialHighlight.TutorialHightlighController, Gilzoide.TutorialHighlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2101615752486509905, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
       propertyPath: m_Name
       value: Button (2)
@@ -345,6 +373,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403980048}
     m_Modifications:
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1072982361}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AdvanceTutorialStep
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gilzoide.TutorialHighlight.TutorialHightlighController, Gilzoide.TutorialHighlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2101615752486509905, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
       propertyPath: m_Name
       value: Button (3)
@@ -543,6 +599,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403980048}
     m_Modifications:
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1072982361}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AdvanceTutorialStep
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gilzoide.TutorialHighlight.TutorialHightlighController, Gilzoide.TutorialHighlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2101615752486509905, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
       propertyPath: m_Name
       value: Button (1)
@@ -652,6 +736,7 @@ GameObject:
   - component: {fileID: 1072982358}
   - component: {fileID: 1072982360}
   - component: {fileID: 1072982359}
+  - component: {fileID: 1072982361}
   m_Layer: 5
   m_Name: TutorialHightlight
   m_TagString: Untagged
@@ -718,6 +803,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072982357}
   m_CullTransparentMesh: 1
+--- !u!114 &1072982361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072982357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd502950c851d4c71a03d631ca0897da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tutorialHightlightGraphic: {fileID: 1072982359}
+  _tutorialObjects:
+  - {fileID: 4156427}
+  - {fileID: 1050233849}
+  - {fileID: 161398125}
+  - {fileID: 739462820}
+  - {fileID: 1288188591}
+  - {fileID: 1837848433}
+  _tutorialStep: 0
+  OnTutorialStep:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTutorialEnded:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1288188590
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -726,6 +838,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403980048}
     m_Modifications:
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1072982361}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AdvanceTutorialStep
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gilzoide.TutorialHighlight.TutorialHightlighController, Gilzoide.TutorialHighlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2101615752486509905, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
       propertyPath: m_Name
       value: Button (4)
@@ -1006,6 +1146,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403980048}
     m_Modifications:
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1072982361}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AdvanceTutorialStep
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gilzoide.TutorialHighlight.TutorialHightlighController, Gilzoide.TutorialHighlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2101615752486509905, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
       propertyPath: m_Name
       value: Button (5)
@@ -1112,6 +1280,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1403980048}
     m_Modifications:
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1072982361}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: AdvanceTutorialStep
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Gilzoide.TutorialHighlight.TutorialHightlighController, Gilzoide.TutorialHighlight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1469027025235200799, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 2101615752486509905, guid: f731ee9a995cd46b789216160ac3a905, type: 3}
       propertyPath: m_Name
       value: Button
