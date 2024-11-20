@@ -1,0 +1,11 @@
+{
+  "name": "com.gilzoide.tutorial-highlight",
+  "displayName": "Tutorial Highlight",
+  "version": "1.0.0-preview1",
+  "description": "",
+  "homepage": "https://github.com/gilzoide/unity-tutorial-highlight",
+  "license": "Unlicense",
+  "author": {
+    "name": "Gil Barbosa Reis"
+  }
+}
