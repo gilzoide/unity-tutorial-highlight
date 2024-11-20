@@ -97,11 +97,5 @@ namespace Gilzoide.TutorialHighlight
             vh.AddTriangle(12, 13, 14);
             vh.AddTriangle(14, 15, 12);
         }
-
-        protected override void OnValidate()
-        {
-            base.OnValidate();
-            SetVerticesDirty();
-        }
     }
 }
