@@ -1,4 +1,3 @@
-using Gilzoide.TutorialHighlight.Internal;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -23,8 +22,10 @@ namespace Gilzoide.TutorialHighlight
             {
                 if (_cutoutObject)
                 {
-                    Rect worldRect = _cutoutObject.TransformRect(_cutoutObject.rect);
-                    return rectTransform.InverseTransformRect(worldRect);
+                    Rect cutoutRect = _cutoutObject.rect;
+                    Vector3 cutoutRectWorldPosition = _cutoutObject.TransformPoint(cutoutRect.position);
+                    cutoutRect.position = rectTransform.InverseTransformPoint(cutoutRectWorldPosition);
+                    return cutoutRect;
                 }
                 else
                 {
