@@ -1,7 +1,9 @@
 {
     "name": "Gilzoide.TutorialHighlight",
     "rootNamespace": "Gilzoide.TutorialHighlight",
-    "references": [],
+    "references": [
+        "Gilzoide.RoundedCorners"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
@@ -9,6 +11,12 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.gilzoide.rounded-corners",
+            "expression": "1.1.0",
+            "define": "HAVE_GILZOIDE_ROUNDED_CORNERS"
+        }
+    ],
     "noEngineReferences": false
 }

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 namespace Gilzoide.TutorialHighlight
 {
     [RequireComponent(typeof(CanvasRenderer)), ExecuteAlways]
-    public class TutorialHightlightGraphic : MaskableGraphic, ICanvasRaycastFilter
+    public partial class TutorialHightlightGraphic : MaskableGraphic, ICanvasRaycastFilter
     {
         [Header("Cutout")]
         [SerializeField] private Rect _cutoutRect;
@@ -113,6 +113,10 @@ namespace Gilzoide.TutorialHighlight
             vh.AddVert(new Vector3(rect.xMin + cutoutRect.xMax, rect.yMin), color32, new Vector4(0, 0));
             vh.AddTriangle(12, 13, 14);
             vh.AddTriangle(14, 15, 12);
+
+#if HAVE_GILZOIDE_ROUNDED_CORNERS
+            OnPopulateMeshInnerRoundedCorner(vh);
+#endif
         }
     }
 }
