@@ -4,7 +4,7 @@ using UnityEngine.UI;
 namespace Gilzoide.TutorialHighlight
 {
     [RequireComponent(typeof(CanvasRenderer)), ExecuteAlways]
-    public partial class TutorialHightlightGraphic : MaskableGraphic, ICanvasRaycastFilter
+    public partial class TutorialHighlightGraphic : MaskableGraphic, ICanvasRaycastFilter
     {
         [Header("Cutout")]
         [Tooltip("Local rectangle used for the cutout. Only used in case CutoutObject is null.")]

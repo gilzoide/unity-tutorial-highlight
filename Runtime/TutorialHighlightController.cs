@@ -5,10 +5,10 @@ using UnityEngine.Events;
 namespace Gilzoide.TutorialHighlight
 {
     [ExecuteAlways]
-    public class TutorialHightlighController : MonoBehaviour
+    public class TutorialHighlightController : MonoBehaviour
     {
         [Tooltip("Graphic used to highlight the tutorial objects. If null, will be searched for using GetComponent.")]
-        [SerializeField] private TutorialHightlightGraphic _tutorialHightlightGraphic;
+        [SerializeField] private TutorialHighlightGraphic _tutorialHightlightGraphic;
         
         [Tooltip("Objects to highlight during the tutorial. The order of the objects in this list defines the order of the tutorial steps.")]
         [SerializeField] private List<RectTransform> _tutorialObjects = new List<RectTransform>();
@@ -23,7 +23,7 @@ namespace Gilzoide.TutorialHighlight
         /// <summary>
         /// Graphic used to highlight the tutorial objects.
         /// </summary>
-        public TutorialHightlightGraphic TutorialHightlightGraphic
+        public TutorialHighlightGraphic TutorialHightlightGraphic
         {
             get => _tutorialHightlightGraphic;
             set
@@ -54,7 +54,7 @@ namespace Gilzoide.TutorialHighlight
         {
             if (_tutorialHightlightGraphic == null)
             {
-                _tutorialHightlightGraphic = GetComponent<TutorialHightlightGraphic>();
+                _tutorialHightlightGraphic = GetComponent<TutorialHighlightGraphic>();
             }
         }
 

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 namespace Gilzoide.TutorialHighlight
 {
-    public partial class TutorialHightlightGraphic : IVertexColorProvider
+    public partial class TutorialHighlightGraphic : IVertexColorProvider
     {
         [Header("Rounded corners")]
         [Tooltip("Inner rounded corner configuration. If Radius is 0, corners will not be rounded.")]
