@@ -1,7 +1,7 @@
 # Tutorial Highlight
 Easy to use tutorial highlight graphic and controller for Unity UI.
 
-<video src="Extras~/demo.mp4" height="300"></video>
+![Demonstration video](Extras~/demo.gif)
 
 ## Features
 - Specialized `TutorialHighlightGraphic` that fills the entire rect but the cutout.
