@@ -7,8 +7,13 @@ namespace Gilzoide.TutorialHighlight
     public partial class TutorialHightlightGraphic : MaskableGraphic, ICanvasRaycastFilter
     {
         [Header("Cutout")]
+        [Tooltip("Local rectangle used for the cutout. Only used in case CutoutObject is null.")]
         [SerializeField] private Rect _cutoutRect;
+
+        [Tooltip("Object used to calculate the cutout rectangle. Set it to null to use the rectangle value from CutoutRect for the cutout.")]
         [SerializeField] private RectTransform _cutoutObject;
+
+        [Tooltip("Margins applied to the cutout rectangle.")]
         [SerializeField] private RectOffset _cutoutMargin;
 
         /// <summary>
