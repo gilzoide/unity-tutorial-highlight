@@ -1,8 +1,8 @@
 {
   "name": "com.gilzoide.tutorial-highlight",
   "displayName": "Tutorial Highlight",
-  "version": "1.0.0-preview2",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Easy to use tutorial highlight graphic and controller for Unity UI.",
   "homepage": "https://github.com/gilzoide/unity-tutorial-highlight",
   "license": "Unlicense",
   "author": {
