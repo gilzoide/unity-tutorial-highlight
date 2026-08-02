@@ -1,4 +1,6 @@
 # Tutorial Highlight
+[![openupm](https://img.shields.io/npm/v/com.gilzoide.tutorial-highlight?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.gilzoide.tutorial-highlight/)
+
 Easy to use tutorial highlight graphic and controller for Unity UI.
 
 ![Demonstration video](Extras~/demo.gif)
@@ -15,6 +17,10 @@ Easy to use tutorial highlight graphic and controller for Unity UI.
 
 ## How to install
 Either:
+- Install using [openupm](https://openupm.com/):
+  ```
+  openupm add com.gilzoide.tutorial-highlight
+  ```
 - Install using the [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui-giturl.html) with the following URL:
   ```
   https://github.com/gilzoide/unity-tutorial-highlight.git
